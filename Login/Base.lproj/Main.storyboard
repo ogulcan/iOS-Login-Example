@@ -42,10 +42,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Login View Controller-->
+        <scene sceneID="3L5-Eh-9QH">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="MdO-CQ-w6u" customClass="LoginViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NQF-Ky-yMP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKv-1q-ZYc">
+                                <rect key="frame" x="66.5" y="40" width="242" height="103"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="75"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" name="Secondary"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Secondary"/>
+                        <constraints>
+                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="top" secondItem="Axm-ZX-PKO" secondAttribute="top" constant="20" id="SpB-q8-XwJ"/>
+                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerX" secondItem="NQF-Ky-yMP" secondAttribute="centerX" id="gQc-iY-tw1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Axm-ZX-PKO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UCa-2O-gwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="-372"/>
+        </scene>
     </scenes>
     <resources>
         <namedColor name="Primary">
             <color red="0.0" green="0.31400001049041748" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.95300000910000005" green="0.016000000760000001" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.95300000905990601" green="0.016000000759959221" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Secondary">
             <color red="0.95300000910000005" green="0.016000000760000001" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
