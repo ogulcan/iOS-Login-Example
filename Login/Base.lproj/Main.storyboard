@@ -13,6 +13,7 @@
     <customFonts key="customFonts">
         <array key="AvenirNext.ttc">
             <string>AvenirNext-Bold</string>
+            <string>AvenirNext-Medium</string>
         </array>
     </customFonts>
     <scenes>
@@ -41,6 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="60" y="19"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="3L5-Eh-9QH">
@@ -51,28 +53,89 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKv-1q-ZYc">
-                                <rect key="frame" x="66.5" y="40" width="242" height="103"/>
+                                <rect key="frame" x="66" y="282" width="242" height="103"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="75"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" name="Secondary"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0N-TH-M9W">
+                                <rect key="frame" x="66" y="562" width="243" height="65"/>
+                                <color key="backgroundColor" name="Primary"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="c2V-BJ-sK9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="40"/>
+                                <state key="normal" title="Save Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="Secondary"/>
                         <constraints>
-                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="top" secondItem="Axm-ZX-PKO" secondAttribute="top" constant="20" id="SpB-q8-XwJ"/>
-                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerX" secondItem="NQF-Ky-yMP" secondAttribute="centerX" id="gQc-iY-tw1"/>
+                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerX" secondItem="NQF-Ky-yMP" secondAttribute="centerX" id="B6Q-Fg-LUV"/>
+                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerY" secondItem="NQF-Ky-yMP" secondAttribute="centerY" id="Y49-er-F6n"/>
+                            <constraint firstItem="v0N-TH-M9W" firstAttribute="leading" secondItem="Axm-ZX-PKO" secondAttribute="leading" constant="66" id="fFJ-x4-5PI"/>
+                            <constraint firstItem="Axm-ZX-PKO" firstAttribute="trailing" secondItem="v0N-TH-M9W" secondAttribute="trailing" constant="66" id="kCt-US-Cia"/>
+                            <constraint firstItem="Axm-ZX-PKO" firstAttribute="bottom" secondItem="v0N-TH-M9W" secondAttribute="bottom" constant="40" id="oiS-Iy-jRk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Axm-ZX-PKO"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCa-2O-gwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="-372"/>
+            <point key="canvasLocation" x="1044" y="-359.37031484257875"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="ANP-Yh-HwM">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="jvS-lB-Cmk" customClass="MainViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CJl-72-aG0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAIN" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV9-40-WA2">
+                                <rect key="frame" x="83" y="282" width="209.5" height="103"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="75"/>
+                                <color key="textColor" name="Primary"/>
+                                <color key="highlightedColor" name="Secondary"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6A-ne-MMc">
+                                <rect key="frame" x="66" y="562" width="243" height="65"/>
+                                <color key="backgroundColor" name="Primary"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Gt7-X2-G3Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="40"/>
+                                <state key="normal" title="Clear Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ugb-iS-s8w" firstAttribute="bottom" secondItem="r6A-ne-MMc" secondAttribute="bottom" constant="40" id="Bvy-z7-wUU"/>
+                            <constraint firstItem="ugb-iS-s8w" firstAttribute="trailing" secondItem="r6A-ne-MMc" secondAttribute="trailing" constant="66" id="DeK-yi-GnO"/>
+                            <constraint firstItem="r6A-ne-MMc" firstAttribute="leading" secondItem="ugb-iS-s8w" secondAttribute="leading" constant="66" id="RnQ-KK-ltI"/>
+                            <constraint firstItem="PV9-40-WA2" firstAttribute="centerX" secondItem="CJl-72-aG0" secondAttribute="centerX" id="luJ-La-pPv"/>
+                            <constraint firstItem="PV9-40-WA2" firstAttribute="centerY" secondItem="CJl-72-aG0" secondAttribute="centerY" id="rKX-pS-RWH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ugb-iS-s8w"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="McY-sT-w2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="387"/>
         </scene>
     </scenes>
     <resources>
         <namedColor name="Primary">
+            <color red="0.0" green="0.31400001049999998" blue="0.56900000569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
             <color red="0.0" green="0.31400001049041748" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.95300000910000005" green="0.016000000760000001" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Secondary">
             <color red="0.95300000910000005" green="0.016000000760000001" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

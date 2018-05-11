@@ -14,6 +14,7 @@
 		78AC90C220A6279D009EA1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AC90C020A6279D009EA1C3 /* LaunchScreen.storyboard */; };
 		78AC90CA20A62B91009EA1C3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC90C920A62B91009EA1C3 /* SplashViewController.swift */; };
 		78AC90CC20A62CBF009EA1C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC90CB20A62CBF009EA1C3 /* LoginViewController.swift */; };
+		78AC90D020A63153009EA1C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC90CF20A63153009EA1C3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		78AC90C320A6279D009EA1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78AC90C920A62B91009EA1C3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		78AC90CB20A62CBF009EA1C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		78AC90CF20A63153009EA1C3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				78AC90B920A6279D009EA1C3 /* ViewController.swift */,
 				78AC90C920A62B91009EA1C3 /* SplashViewController.swift */,
 				78AC90CB20A62CBF009EA1C3 /* LoginViewController.swift */,
+				78AC90CF20A63153009EA1C3 /* MainViewController.swift */,
 				78AC90BB20A6279D009EA1C3 /* Main.storyboard */,
 				78AC90BE20A6279D009EA1C3 /* Assets.xcassets */,
 				78AC90C020A6279D009EA1C3 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				78AC90CA20A62B91009EA1C3 /* SplashViewController.swift in Sources */,
 				78AC90BA20A6279D009EA1C3 /* ViewController.swift in Sources */,
 				78AC90B820A6279D009EA1C3 /* AppDelegate.swift in Sources */,
+				78AC90D020A63153009EA1C3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
