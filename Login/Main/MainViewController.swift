@@ -13,4 +13,10 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func clearLoginTapped(_ sender: UIButton) {
+        try! App.keychain?.remove("token")
+        UIApplication.setRootView(LoginViewController.instantiate(from: .Login), options: UIApplication.logoutAnimation)
+    }
+    
 }

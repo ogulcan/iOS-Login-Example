@@ -13,4 +13,9 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func saveLoginTapped(_ sender: UIButton) {
+        try! App.keychain?.set("token", key: "token")
+        UIApplication.setRootView(MainViewController.instantiate(from: .Main))
+    }
 }

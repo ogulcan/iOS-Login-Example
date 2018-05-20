@@ -41,6 +41,9 @@
                                 <state key="normal" title="Save Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveLoginTapped:" destination="R2P-Jr-dsF" eventType="touchUpInside" id="xGr-1G-1in"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="Secondary"/>

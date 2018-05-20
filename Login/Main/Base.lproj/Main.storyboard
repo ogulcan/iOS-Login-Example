@@ -68,6 +68,9 @@
                                 <state key="normal" title="Clear Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="clearLoginTapped:" destination="jvS-lB-Cmk" eventType="touchUpInside" id="val-9V-JVP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
