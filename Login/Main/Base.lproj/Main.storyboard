@@ -44,47 +44,6 @@
             </objects>
             <point key="canvasLocation" x="60" y="19"/>
         </scene>
-        <!--Login View Controller-->
-        <scene sceneID="3L5-Eh-9QH">
-            <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="MdO-CQ-w6u" customClass="LoginViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NQF-Ky-yMP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKv-1q-ZYc">
-                                <rect key="frame" x="66" y="282" width="242" height="103"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="75"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" name="Secondary"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0N-TH-M9W">
-                                <rect key="frame" x="66" y="562" width="243" height="65"/>
-                                <color key="backgroundColor" name="Primary"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="c2V-BJ-sK9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="40"/>
-                                <state key="normal" title="Save Login">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" name="Secondary"/>
-                        <constraints>
-                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerX" secondItem="NQF-Ky-yMP" secondAttribute="centerX" id="B6Q-Fg-LUV"/>
-                            <constraint firstItem="wKv-1q-ZYc" firstAttribute="centerY" secondItem="NQF-Ky-yMP" secondAttribute="centerY" id="Y49-er-F6n"/>
-                            <constraint firstItem="v0N-TH-M9W" firstAttribute="leading" secondItem="Axm-ZX-PKO" secondAttribute="leading" constant="66" id="fFJ-x4-5PI"/>
-                            <constraint firstItem="Axm-ZX-PKO" firstAttribute="trailing" secondItem="v0N-TH-M9W" secondAttribute="trailing" constant="66" id="kCt-US-Cia"/>
-                            <constraint firstItem="Axm-ZX-PKO" firstAttribute="bottom" secondItem="v0N-TH-M9W" secondAttribute="bottom" constant="40" id="oiS-Iy-jRk"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Axm-ZX-PKO"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UCa-2O-gwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1302" y="-421"/>
-        </scene>
         <!--Main View Controller-->
         <scene sceneID="ANP-Yh-HwM">
             <objects>
@@ -124,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="McY-sT-w2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1303" y="410"/>
+            <point key="canvasLocation" x="956" y="18"/>
         </scene>
     </scenes>
     <resources>
