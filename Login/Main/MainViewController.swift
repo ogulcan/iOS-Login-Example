@@ -18,5 +18,4 @@ class MainViewController: UIViewController {
         try! App.keychain?.remove("token")
         UIApplication.setRootView(LoginViewController.instantiate(from: .Login), options: UIApplication.logoutAnimation)
     }
-    
 }
