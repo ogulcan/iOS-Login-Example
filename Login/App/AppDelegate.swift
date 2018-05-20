@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /// Fabric.with([Crashlytics.self])
         /// Crash.sharedInstance().isCrashCollectionEnabled = App.config.shouldReport()
         App.keychain = Keychain(server: Bundle.main.bundleIdentifier!, protocolType: .https)
-
         
         // Let's initiliaze window
         self.window = UIWindow(frame: UIScreen.main.bounds)
@@ -33,8 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Let's check if user availability
         if App.keychain!["token"] != nil {
             // Show home page
+            print("Show main page")
         } else {
             // Show login page
+            print("Show login page")
         }
         
         self.window?.makeKeyAndVisible()
