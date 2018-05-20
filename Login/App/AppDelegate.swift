@@ -32,10 +32,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Let's check if user availability
         if App.keychain!["token"] != nil {
             // Show home page
-            print("Show main page")
+            let mainViewController = MainViewController.instantiate(from: .Main)
+            self.window?.rootViewController = mainViewController
         } else {
             // Show login page
-            print("Show login page")
+            let loginViewController = LoginViewController.instantiate(from: .Login)
+            self.window?.rootViewController = loginViewController
         }
         
         self.window?.makeKeyAndVisible()
