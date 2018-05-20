@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		78AC90B820A6279D009EA1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC90B720A6279D009EA1C3 /* AppDelegate.swift */; };
-		78AC90BA20A6279D009EA1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC90B920A6279D009EA1C3 /* ViewController.swift */; };
 		78AC90BD20A6279D009EA1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AC90BB20A6279D009EA1C3 /* Main.storyboard */; };
 		78AC90BF20A6279D009EA1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78AC90BE20A6279D009EA1C3 /* Assets.xcassets */; };
 		78AC90C220A6279D009EA1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AC90C020A6279D009EA1C3 /* LaunchScreen.storyboard */; };
@@ -18,13 +17,13 @@
 		78F11A8120B1C17300120997 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F11A8020B1C17300120997 /* Login.storyboard */; };
 		78F11A8720B1C35900120997 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F11A8620B1C35900120997 /* AppStoryboard.swift */; };
 		78F11A8A20B1C39600120997 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F11A8920B1C39600120997 /* UIViewController.swift */; };
+		78F11A8E20B1D30500120997 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F11A8D20B1D30500120997 /* UIApplication.swift */; };
 		80119A44980E736B2BC0B87D /* Pods_login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1CFAD9D4F35DD5B668051D /* Pods_login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78AC90B420A6279D009EA1C3 /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AC90B720A6279D009EA1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78AC90B920A6279D009EA1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78AC90BC20A6279D009EA1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78AC90BE20A6279D009EA1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78AC90C120A6279D009EA1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		78F11A8020B1C17300120997 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		78F11A8620B1C35900120997 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		78F11A8920B1C39600120997 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		78F11A8D20B1D30500120997 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		7C44C3FE46BA1C59CFEC2C3C /* Pods-login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.release.xcconfig"; path = "Pods/Target Support Files/Pods-login/Pods-login.release.xcconfig"; sourceTree = "<group>"; };
 		8E1CFAD9D4F35DD5B668051D /* Pods_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA40D213BC1F4C49FA0DA52A /* Pods-login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-login/Pods-login.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				78AC90BB20A6279D009EA1C3 /* Main.storyboard */,
-				78AC90B920A6279D009EA1C3 /* ViewController.swift */,
 				78AC90C920A62B91009EA1C3 /* SplashViewController.swift */,
 				78AC90CF20A63153009EA1C3 /* MainViewController.swift */,
 			);
@@ -133,6 +132,7 @@
 		78F11A8820B1C38700120997 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				78F11A8D20B1D30500120997 /* UIApplication.swift */,
 				78F11A8920B1C39600120997 /* UIViewController.swift */,
 			);
 			path = Extension;
@@ -252,10 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F11A8E20B1D30500120997 /* UIApplication.swift in Sources */,
 				78F11A8A20B1C39600120997 /* UIViewController.swift in Sources */,
 				78AC90CC20A62CBF009EA1C3 /* LoginViewController.swift in Sources */,
 				78AC90CA20A62B91009EA1C3 /* SplashViewController.swift in Sources */,
-				78AC90BA20A6279D009EA1C3 /* ViewController.swift in Sources */,
 				78AC90B820A6279D009EA1C3 /* AppDelegate.swift in Sources */,
 				78F11A8720B1C35900120997 /* AppStoryboard.swift in Sources */,
 				78AC90D020A63153009EA1C3 /* MainViewController.swift in Sources */,
